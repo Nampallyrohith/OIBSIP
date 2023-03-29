@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="indexStyling.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand navbar-name" href="#">R.</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse d-flex flex-row justify-content-between" id="navbarNavAltMarkup">
+    <div class="navbar-nav ">
+      <a class="nav-link active" href="#sectionHome">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link active" href="#sectionAboutMe">About me</a>
+      <a class="nav-link active" href="#sectionSkills">Skills</a>
+      <a class="nav-link active" href="#sectionProjects">Projects</a>
+      <a class="nav-link active" href="#sectionServices">Services</a>
+    </div>
+  </div>
+</nav>
+<section id = "sectionHome"class="home  d-flex flex-column justify-content-center">
+    <div class="container ml-auto">
+        <div class="row">
+            
+            <div class="col-12 col-md-7 d-flex flex-column justify-content-center">
+                <h1 class="home-main-heading">Hey, I am <span class="name-span">Rohith</span></h1>
+                <p class="home-para-decriptive">I am a Frontend Developer & Mentor.</p>
+                <a href="#sectionContactMe" class="btn btn-primary contact-button">Contact Me</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="sectionAboutMe" class="portfolio-about-me-bg-container pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 order-md-2 mt-5 mb-2">
+                <h3 class="skill-h3">Facts</h3>
+                <h1>About me</h1>
+                <div class="d-none d-md-block">
+                    <p>My name is Rohith Nampally, and I am currently
+                        looking for a job in Frontend Development. I have a bachelor's degree
+                        in Computer Science Engineering and Technology. People
+                        find me to be an upbeat, self-motivated team
+                        player with excellent communication skills.
+                        <br><br>
+                        I am a dedicated person with a family of four. |
+                        enjoy reading, and the knowledge and
+                        perspective that my reading gives me have
+                        strengthened my teaching skills and
+                        presentation abilities.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 order-md-1 mt-5">
+                <img src="Rohith.jpg" class="w-75" />
+            </div>
+            <div class="col-12 m-2 d-md-none">
+                <p>My name is Rohith Nampally, and I am currently
+                    looking for a job in Frontend Development. I have a bachelor's degree
+                    in Computer Science Engineering and Technology. People
+                    find me to be an upbeat, self-motivated team
+                    player with excellent communication skills.
+                    <br><br>
+                    I am a dedicated person with a family of four. |
+                    enjoy reading, and the knowledge and
+                    perspective that my reading gives me have
+                    strengthened my teaching skills and
+                    presentation abilities.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="sectionSkills" class="portfolio-skills-bg-container pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="skill-h3">Skills :</h3>
+            </div>
+            <div class="col-6 col-md-3 mt-3 shadow">
+                <div class="skills-language-section text-center pt-3 pb-3">
+                    <img src="html.png" class="language-image mb-3" />
+                    <h1 class="language-name">HTML</h1>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mt-3 shadow">
+                <div class="skills-language-section text-center pt-3 pb-3">
+                    <img src="css.png" class="language-image mb-3" />
+                    <h1 class="text-center language-name">CSS</h1>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mt-3 shadow">
+                <div class="skills-language-section text-center pt-3 pb-3">
+                    <img src="bootstrap.png" class="language-image mb-3" />
+                    <h1 class="text-center language-name">Bootstrap</h1>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mt-3 shadow">
+                <div class="skills-language-section text-center pt-3 pb-3">
+                    <img src="js.png" class="language-image mb-3" />
+                    <h1 class="language-name">JS</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="sectionProjects" class="portfolio-projects-bg-container pt-5 pb-5 p-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="project-h3">Portfolio</h3>
+                <h1>Projects I have done</h1>
+            </div>
+            <div class="col-12 col-md-6 mt-3">
+                <img src="project1.png" class="w-100 project-image" />
+                <div class="projects p-3">
+                    <p class="captcha">Web design</p>
+                    <h1 class="project-sub-heading">Royal Grand Hotel</h1>
+                    <p>Royal Grand Hotel is a Simple Static Website. We can use this layout for building the otherwebsites...</p>
+                    <a href="" class="project-anchor">Read More
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mt-3">
+                <img src="project2.png" class="w-100 project-image" />
+                <div class="projects p-3">
+                    <p class="captcha">Web design</p>
+                    <h1 class="project-sub-heading">Happy Meals</h1>
+                    <p>Happy Meals is the best-in-class food ordering page today. With interactive UI/UX and simple call to actions...</p>
+                    <a href="" class="project-anchor">Read More
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="sectionServices" class="portfolio-services-bg-container pt-5 pb-5 p-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mb-3">
+                <h3 class="service-h3">Services</h3>
+                <h1>What I do</h1>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                <div class="creating-website-container p-3 shadow">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-web-design-img.png" class="services-image mb-2" />
+                    <h1 class="services-name">Static Websites</h1>
+                    <p>A Static Website contains Web pages with fixed content.
+                        Each and CSS and displays the same information to every visitor.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                <div class="creating-website-container p-3 shadow">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-web-development-img.png" class="services-image mb-2" />
+                    <h1 class="services-name">Responsive Web design</h1>
+                    <p>Responsive Web design is the approach that suggest that design
+                        and development should respond to the user's behavior and environment based
+                        on screen size, platform and orientation.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="creating-website-container p-3 shadow">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-customize-img.png" class="services-image mb-2" />
+                    <h1 class="services-name">Customisable Layouts</h1>
+                    <p>Customisable sites are templates with set layouts.
+                        You may be able to change photos and color's but your site will look similar
+                        to amny other sites due to the template. The same goes for...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="portfolio-work-done-section pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-3 text-white text-center ml-5 pl-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60px" height="60px" fill="currentColor" class="bi bi-hand-thumbs-up " viewBox="0 0 16 16">
+                    <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z" />
+                </svg>
+                <hr color=white class="hr-line" />
+                <h1>10</h1>
+                <p>Projects Completed</p>
+            </div>
+            <div class="col-3 text-white text-center ml-5 pl-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60px" height="60px" fill="currentColor" class="bi bi-file-text" viewBox="0 0 16 16">
+                    <path d="M5 4a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1H5z" />
+                    <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z" />
+                </svg>
+                <hr color=white class="hr-line" />
+                <h1>2,800</h1>
+                <p>Lines of Code</p>
+            </div>
+            <div class="col-3 text-white text-center ml-5 pl-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60px" height="60px" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
+                </svg>
+                <hr color=white class="hr-line" />
+                <h1>15</h1>
+                <p>Hours Worked</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+<footer id="sectionContactMe" class="portfolio-footer-section pt-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-3 d-flex flex-row mb-3">
+                <img src="Rohith.jpg" class="footer-image" />
+                <div class="ml-3">
+                    <h3 class="mb-3 contact-h3">Rohith</h3>
+                    <p>Frontend Developer</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 mb-3">
+                <h3 class="mb-3 contact-h3">Phone No.</h3>
+                <p class="mb-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#5a7184" class="mr-2 bi bi-telephone-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                    </svg>
+                    9576548980
+                </p>
+            </div>
+            <div class="col-12 col-md-3 mb-3">
+                <h3 class="mb-3 contact-h3">
+                    E-mail
+                </h3>
+                <p class="mb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#5a7184" class="mr-2 bi bi-envelope-fill" viewBox="0 0 16 16">
+                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                    </svg>
+                    rohith5@gmil.com
+                </p>
+            </div>
+            <div class="col-12 col-md-3 mb-3">
+                <h3 class="mb-3 contact-h3">
+                    Address
+                </h3>
+                <p class="mb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#5a7184" class="mr-2" viewBox="0 0 576 512">
+                        <path d="M408 120c0 54.6-73.1 151.9-105.2 192c-7.7 9.6-22 9.6-29.6 0C241.1 271.9 168 174.6 168 120C168 53.7 221.7 0 288 0s120 53.7 120 120zm8 80.4c3.5-6.9 6.7-13.8 9.6-20.6c.5-1.2 1-2.5 1.5-3.7l116-46.4C558.9 123.4 576 135 576 152V422.8c0 9.8-6 18.6-15.1 22.3L416 503V200.4zM137.6 138.3c2.4 14.1 7.2 28.3 12.8 41.5c2.9 6.8 6.1 13.7 9.6 20.6V451.8L32.9 502.7C17.1 509 0 497.4 0 480.4V209.6c0-9.8 6-18.6 15.1-22.3l122.6-49zM327.8 332c13.9-17.4 35.7-45.7 56.2-77V504.3L192 449.4V255c20.5 31.3 42.3 59.6 56.2 77c20.5 25.6 59.1 25.6 79.6 0zM288 152c22.1 0 40-17.9 40-40s-17.9-40-40-40s-40 17.9-40 40s17.9 40 40 40z" />
+                    </svg>
+                    Vadodara, Gujarat, India.
+                </p>
+            </div>
+            <div class="col-12 copy-right-footer text-center pt-2">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#5a7184" class="mr-2" viewBox="0 0 512 512">
+                        <path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 464c-114.7 0-208-93.31-208-208S141.3 48 256 48s208 93.31 208 208S370.7 464 256 464zM255.1 176C255.1 176 255.1 176 255.1 176c21.06 0 40.92 8.312 55.83 23.38c9.375 9.344 24.53 9.5 33.97 .1562c9.406-9.344 9.469-24.53 .1562-33.97c-24-24.22-55.95-37.56-89.95-37.56c0 0 .0313 0 0 0c-33.97 0-65.95 13.34-89.95 37.56c-49.44 49.88-49.44 131 0 180.9c24 24.22 55.98 37.56 89.95 37.56c.0313 0 0 0 0 0c34 0 65.95-13.34 89.95-37.56c9.312-9.438 9.25-24.62-.1562-33.97c-9.438-9.312-24.59-9.219-33.97 .1562c-14.91 15.06-34.77 23.38-55.83 23.38c0 0 .0313 0 0 0c-21.09 0-40.95-8.312-55.89-23.38c-30.94-31.22-30.94-82.03 0-113.3C214.2 184.3 234 176 255.1 176z" />
+                    </svg>
+                    2020 by Rohith Nampally. Created with Bootstrap.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>

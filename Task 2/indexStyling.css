@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.navbar-name{
+    font-weight: 700;
+    font-family: "Roboto";
+    padding: 10px;
+    border-color: #4b6cc1;
+    border-width: 2px;
+    border-style: solid;
+    color: white;
+}
+
+.home{
+  height: 100vh;
+  width: 100%;
+  background: url("img-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+nav div a:hover {
+    background-color: #4b6cc1;
+}
+
+.home-main-heading{
+    color:  black;
+}
+.home-para-decriptive{
+    color: black;
+}
+.name-span{
+    color: #4b6cc1;
+}
+
+.home-button{
+    width: 130px;
+}
+
+
+.portfolio-about-me-bg-container {
+    background-color: #323f4b;
+    font-family: "Roboto";
+}
+
+.skill-h3 {
+    color: #cced00;
+    font-weight: bold;
+    size: 16px;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+}
+
+p{
+    color: #9aa5b1;
+    font-size: 18px;
+}
+
+.portfolio-skills-bg-container {
+    background-color: #1f2933;
+    font-family: "Roboto";
+}
+
+.language-image {
+    width: 60px;
+    height: 60px;
+
+}
+
+.language-name {
+    font-size: 25px;
+}
+
+.skills-language-section {
+    background-color: #323f4b;
+    padding-top: 10px;
+
+    border-radius: 10px;
+
+}
+
+.portfolio-projects-bg-container {
+    background-color: #3e4c59;
+    font-family: "Roboto";
+    background-size: cover;
+}
+
+.project-h3 {
+    color: #cced00;
+    font-weight: bold;
+    size: 16px;
+
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+}
+
+p {
+    color: #9aa5b1;
+}
+
+.projects {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #323f4b;
+}
+
+.project-image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.captcha {
+    font-size: 13px;
+}
+
+.project-sub-heading {
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.project-anchor {
+    color: #cced00;
+    font-size: 13px;
+}
+
+
+.portfolio-services-bg-container {
+    background-color: #52606d;
+
+}
+
+.service-h3 {
+    color: #cced00;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.creating-website-container {
+    background-color: #323f4b;
+    border-radius: 10px;
+}
+
+p {
+    color: #9aa5b1;
+    font-size: 18px;
+}
+
+.services-image {
+    width: 60px;
+    height: 60px;
+}
+
+.services-name {
+    font-size: 25px;
+}
+
+
+.portfolio-work-done-section {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png');
+    background-size: cover;
+    text-align: center;
+}
+
+.hr-line {
+    color: white;
+    width: 60px;
+}
+
+
+.portfolio-footer-section {
+    background-color: #0d2436;
+}
+
+.contact-h3 {
+    color: #cced00;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+p {
+    color: #9aa5b1;
+}
+
+.copy-right-footer {
+    background-color: #001c32;
+}
+
+.footer-image {
+    border-radius: 40px;
+    width: 60px;
+    height: 60px;
+}
+
+.contact-button{
+    width: 150px;
+}
